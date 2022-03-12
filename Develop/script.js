@@ -16,16 +16,65 @@ function generatePassword() {
   window.prompt("Click OK to confirm including special characters");
   window.prompt("Click OK to confirm including numeric characters");
   window.prompt("Click OK to confirm including lowercase characters");
-  window.prompt("Click OK to confirm including Uppercase characters")
+  window.prompt("Click OK to confirm including Uppercase characters");
 // 2. Validate the input.
 
+function validateInput;() {
+  var passwordlength
+  var specialCharacters
+  var numericCharacters
+  var lowercaseCharacters
+  var uppercaseCharacters 
+}
+
+let password={
+  special []
+  numeric []
+  lowercase []
+  uppercase []
+}
 
 // 3. Generate password based on criteria. 
 
+function promptPassword Length(){
+  length = prom();
+}
+
+function prompSpecialCharacter(){
+  do 
+    uppercase = prompt();
+}while(flag == true)
+
+  validateType()
+
+}
+
+function validateType(){
+  var flag = true;
+  if (uppercase.match(/yes/i) || lowercase.match() || Symbol()){
+    return;
+  }
+  flag = false
+  return
+}
+
+function generatePassword(){
+
+  //user only wants uppercase + lowerccase
+
+for (let i = 0; i < uppercase.length; i++){
+    temp.push(uppercase[i])
+}
+
+var password
+for (i=0;i < legnth){
+  password = random() newpassword[i];
+}
+}
 
 // 4. Display password to the page. 
   return "Generated password will go here!"
-}
+
 
 // Write password to the #password input
 function writePassword() {
@@ -33,6 +82,8 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
+
+
 
 }
 
