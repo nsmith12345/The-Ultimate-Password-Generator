@@ -8,9 +8,18 @@ function generatePassword() {
   console.log("Hey! You clicked the button!")
 
 // 1. Prompt the user for the password criteria.
+
 //    a. Password Length 8 < 128.
+  window.prompt("How many characters would you like your password to contain? Must be between 8 - 128 characters.");
+  
 //    b. Lowercase, uppercase, numbers, special characters.
+  window.prompt("Click OK to confirm including special characters");
+  window.prompt("Click OK to confirm including numeric characters");
+  window.prompt("Click OK to confirm including lowercase characters");
+  window.prompt("Click OK to confirm including Uppercase characters")
 // 2. Validate the input.
+
+
 // 3. Generate password based on criteria. 
 
 
